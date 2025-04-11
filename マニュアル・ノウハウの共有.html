@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>マニュアル・ノウハウの共有</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Apply Inter font, fallback to Noto Sans JP */
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+        /* Ensure SVGs inherit text color */
+        svg {
+            stroke: currentColor;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <div class="flex flex-col items-center w-full p-4 rounded-lg">
+
+      <div class="w-full text-center mb-8 bg-blue-600 text-white p-4 rounded-lg shadow-md">
+        <h1 class="text-2xl font-bold">マニュアル・ノウハウの共有</h1> <p class="text-lg">暗黙知から形式知へ、遅延から即時へ</p> </div>
+
+      <div class="w-full max-w-4xl relative mb-8"> <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-blue-400 z-0" aria-hidden="true"></div>
+
+        <div class="relative z-10 flex items-center mb-16">
+          <div class="w-1/2 pr-8 text-right">
+            <div class="bg-white p-4 rounded-lg shadow-md border-l-4 border-gray-500">
+              <h3 class="text-lg font-bold text-gray-800 mb-2">第1期：個人知識と紙マニュアルの時代</h3> <p class="text-gray-700 text-sm"><strong>業務の方法やトラブル対応は個人の記憶やメモに依存</strong>。<strong>運用変更は口頭や会議で伝達</strong>され、情報格差が生じやすい。</p> <div class="mt-3 p-2 bg-gray-100 rounded-lg border border-gray-300">
+                <p class="text-gray-800 italic text-xs">「新しいやり方、トラブルの対応などは、個人の記憶もしくは個人のメモとして残されてきた」</p> <p class="text-gray-800 italic mt-1 text-xs">「運用が変わった時は口頭で伝えるスタイルや定期的に行われる会議で周知」</p> </div>
+              <ul class="text-gray-600 mt-2 text-xs list-disc list-inside text-left"> <li>「〇〇さんに聞かないとわからない」状態</li> <li>会議に出席できなかった人からの情報伝達が不確実</li> <li>伝言ゲームのような情報の劣化リスク</li> <li>変更から全員への周知までにタイムラグが発生</li> </ul>
+            </div>
+          </div>
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-gray-500 text-white shadow-lg z-20">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>
+          </div>
+          <div class="w-1/2 pl-8">
+            <p class="text-2xl font-bold text-gray-500">過去</p> </div>
+        </div>
+
+        <div class="relative z-10 flex items-center mb-16">
+          <div class="w-1/2 pr-8 text-right">
+            <p class="text-2xl font-bold text-blue-500">現在</p> </div>
+          <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-blue-500 text-white shadow-lg z-20">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder-open"><path d="m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v1"/></svg>
+          </div>
+          <div class="w-1/2 pl-8">
+            <div class="bg-white p-4 rounded-lg shadow-md border-l-4 border-blue-500">
+              <h3 class="text-lg font-bold text-blue-800 mb-2">第2期：共有フォルダ時代</h3> <p class="text-gray-700 text-sm">ネットワーク共有フォルダの登場により、<strong>編集可能なファイル形式</strong>で複数人がアクセス可。<strong>更新通知は依然として会議や口頭が中心</strong>。</p> <ul class="text-gray-600 mt-2 text-xs list-disc list-inside"> <li>同一ファイルへの複数人アクセス</li> <li>過去のエラー事例の記録が始まる</li> <li>更新されたことを知らせる仕組みは不十分</li> <li>「いつの間にか変わっていた」という事態も発生</li> </ul>
+               <div class="mt-3 p-2 bg-blue-50 rounded-lg border border-blue-200">
+                <p class="text-blue-800 italic text-xs">「みんなで編集して1つのところでみんなの知識を集約しつつ、運用が変わったときにはそれをすぐに変えれるような環境が整った」</p> </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative z-10 flex items-center mb-16">
+           <div class="w-1/2 pr-8 text-right">
+            <div class="bg-white p-4 rounded-lg shadow-md border-l-4 border-green-500">
+              <h3 class="text-lg font-bold text-green-800 mb-2">第3期：クラウド協働編集時代</h3> <p class="text-gray-700 text-sm">Googleドライブ等のクラウドで、<strong>リアルタイム共同編集</strong>や<strong>コメント機能</strong>を活用。<strong>更新通知の自動化で即時性が向上</strong>。</p> <div class="mt-3 p-2 bg-green-50 rounded-lg border border-green-200">
+                <p class="text-green-800 italic text-xs">「もっと即時性を持って全員への情報共有をするという意図」</p> </div>
+              <ul class="text-gray-600 mt-2 text-xs list-disc list-inside text-left"> <li>変更が発生した事を自動で通知</li> <li>場所を選ばず最新情報にアクセス可能</li> <li>情報の遅延や格差を解消</li> <li>「聞く文化」から「調べる文化」への転換</li> </ul>
+            </div>
+          </div>
+           <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-green-500 text-white shadow-lg z-20">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"/></svg>
+          </div>
+           <div class="w-1/2 pl-8">
+            <p class="text-2xl font-bold text-green-500">進行中</p> </div>
+        </div>
+
+        <div class="relative z-10 flex items-center">
+           <div class="w-1/2 pr-8 text-right">
+            <p class="text-2xl font-bold text-purple-500">未来</p> </div>
+           <div class="flex-shrink-0 flex items-center justify-center w-12 h-12 rounded-full bg-purple-500 text-white shadow-lg z-20">
+             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588 4 4 0 0 0 .556 6.588 3 3 0 1 0 5.997.125 4 4 0 0 0 2.526-5.77 4 4 0 0 0-.556-6.588 4 4 0 0 0-.556-6.588Z"/><path d="M16 14a4 4 0 0 0 .556-6.588 3 3 0 1 0-5.997-.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588 3 3 0 1 0 5.997.125 4 4 0 0 0 2.526-5.77Z"/><path d="M2.5 12.5h19"/><path d="M12.5 2.5v19"/></svg>
+          </div>
+           <div class="w-1/2 pl-8">
+            <div class="bg-white p-4 rounded-lg shadow-md border-l-4 border-purple-500">
+              <h3 class="text-lg font-bold text-purple-800 mb-2">第4期：AI拡張マニュアル時代</h3> <p class="text-gray-700 text-sm">AI活用で<strong>インテリジェントなシステム</strong>へ進化。<strong>プッシュ型情報提供</strong>で必要な情報が自動で届く。</p> <ul class="text-gray-600 mt-2 text-xs list-disc list-inside"> <li>音声メモからの自動文書化</li> <li>パーソナライズされた更新通知</li> <li>「あなたに関連する情報」通知</li> <li>関連する過去事例の自動推奨</li> </ul>
+            </div>
+          </div>
+        </div>
+      </div> <div class="w-full max-w-5xl bg-white p-6 rounded-lg shadow-md mb-8"> <h2 class="text-xl font-bold text-blue-800 mb-4 text-center md:text-left">情報共有の「即時性」の進化</h2> <div class="flex flex-col md:flex-row w-full items-stretch"> <div class="flex-1 p-2">
+            <div class="p-4 bg-gray-100 rounded-lg h-full border border-gray-200"> <div class="flex items-center mb-3">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-gray-500 mr-2 flex-shrink-0 lucide lucide-clock"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                <h3 class="text-lg font-bold text-gray-700">過去：遅延型情報共有</h3> </div>
+              <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm"> <li>週次・月次会議での一斉周知</li> <li>口頭での個別伝達</li> <li>掲示板への掲示</li> <li>情報伝達に数日～数週間を要する</li> </ul>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center p-2">
+             <svg class="w-8 h-8 text-blue-500 hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"> <path d="M5 12h14M12 5l7 7-7 7" /></svg>
+             <svg class="w-8 h-8 text-blue-500 block md:hidden my-2 transform rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"> <path d="M5 12h14M12 5l7 7-7 7" /></svg>
+          </div>
+
+          <div class="flex-1 p-2">
+            <div class="p-4 bg-blue-50 rounded-lg h-full border border-blue-200"> <div class="flex items-center mb-3">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-blue-500 mr-2 flex-shrink-0 lucide lucide-bell"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+                <h3 class="text-lg font-bold text-blue-700">現在：準即時型情報共有</h3> </div>
+              <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm"> <li>更新された文書へのアクセス</li> <li>メールやLINEで周知</li> <li>変更履歴の閲覧</li> <li>情報伝達に数時間～数日を要する</li> </ul>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center p-2">
+             <svg class="w-8 h-8 text-green-500 hidden md:block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"> <path d="M5 12h14M12 5l7 7-7 7" /></svg>
+             <svg class="w-8 h-8 text-green-500 block md:hidden my-2 transform rotate-90" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"> <path d="M5 12h14M12 5l7 7-7 7" /></svg>
+          </div>
+
+          <div class="flex-1 p-2">
+            <div class="p-4 bg-green-50 rounded-lg h-full border border-green-200"> <div class="flex items-center mb-3">
+                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green-500 mr-2 flex-shrink-0 lucide lucide-zap"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                <h3 class="text-lg font-bold text-green-700">目標：自動化された情報共有</h3> </div>
+              <ul class="list-disc list-inside text-gray-600 space-y-1 text-sm"> <li>変更発生時の自動通知</li> <li>影響度に応じた通知優先度</li> <li>変更内容のダイジェスト配信</li> <li>情報伝達に数分～数時間を要する</li> </ul>
+            </div>
+          </div>
+        </div>
+      </div> <div class="w-full max-w-5xl bg-white p-6 rounded-lg shadow-md mb-8"> <h2 class="text-xl font-bold text-blue-800 mb-4 text-center md:text-left">知識共有の課題とその解決策</h2> <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+            <div class="flex items-start mb-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0 lucide lucide-alert-triangle"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg>
+              <h3 class="font-bold text-blue-800">トラブル対応の個人依存からの脱却</h3> </div>
+            <p class="text-gray-700 text-sm">これまで：「このエラーが出たら○○さんに聞いて」という属人的な対応</p> <p class="text-gray-700 mt-2 font-semibold text-sm">今後：エラーコード別のトラブルシューティングデータベース構築</p> <ul class="text-gray-600 mt-1 list-disc pl-5 text-xs space-y-1"> <li>QRコードで該当エラーの対処法に直接アクセス</li> <li>解決した人が対応方法を追記していく仕組み</li> </ul>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+            <div class="flex items-start mb-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0 lucide lucide-message-square"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+              <h3 class="font-bold text-blue-800">「記録する手間」の最小化</h3> </div>
+            <p class="text-gray-700 text-sm">これまで：「後でマニュアルに書いておこう」が実現しない悪循環</p> <p class="text-gray-700 mt-2 font-semibold text-sm">今後：記録習慣の定着</p> <ul class="text-gray-600 mt-1 list-disc pl-5 text-xs space-y-1"> <li>音声メモでサクッと記録→AIが下書き→後で文書化</li> <li>スマホから簡単に投稿できるQRコードアクセス</li> </ul>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+            <div class="flex items-start mb-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0 lucide lucide-bell"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>
+              <h3 class="font-bold text-blue-800">情報の即時性確保</h3> </div>
+            <p class="text-gray-700 text-sm">これまで：運用変更が全員に伝わるまでに時間がかかる</p> <p class="text-gray-700 mt-2 font-semibold text-sm">今後：更新の自動通知で変更を即座に周知</p> <ul class="text-gray-600 mt-1 list-disc pl-5 text-xs space-y-1"> <li>重要度に応じた通知の差別化</li> <li>ダイジェスト機能で「何が変わったか」を簡潔に伝達</li> </ul>
+          </div>
+
+          <div class="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
+            <div class="flex items-start mb-2"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-6 h-6 text-blue-500 mr-2 flex-shrink-0 lucide lucide-book-open"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              <h3 class="font-bold text-blue-800">「常に最新のマニュアル」への進化</h3> </div>
+            <p class="text-gray-700 text-sm">これまで：更新頻度が限られ、古い運用が記載されたままのマニュアル</p> <p class="text-gray-700 mt-2 font-semibold text-sm">今後：更新頻度を上げて最新の状況が常に反映される仕組み</p> <ul class="text-gray-600 mt-1 list-disc pl-5 text-xs space-y-1"> <li>迅速な更新システムによる最新情報の維持</li> <li>装置ごとのQRコードで最新マニュアルへのアクセス</li> <li>変更点が視覚的にわかりやすく表示される工夫</li> </ul>
+          </div>
+        </div>
+      </div> <div class="w-full max-w-5xl bg-white p-6 rounded-lg shadow-md"> <h2 class="text-xl font-bold text-green-800 mb-4 text-center md:text-left">変革がもたらす効果</h2> <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
+            <h3 class="font-bold text-green-800 mb-2">業務効率の向上</h3> <p class="text-gray-700 text-sm">同じトラブルに何度も対応する時間の削減。「調べる」「聞く」時間の短縮で本来業務に集中。</p> </div>
+
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
+            <h3 class="font-bold text-green-800 mb-2">情報格差の解消</h3> <p class="text-gray-700 text-sm">「知っている人」と「知らない人」の差をなくし、全員が最新情報に基づいて業務を行える環境の実現。</p> </div>
+
+          <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
+            <h3 class="font-bold text-green-800 mb-2">組織の強靭化</h3> <p class="text-gray-700 text-sm">人の入れ替わりに強い組織基盤。変化に即応できる柔軟な体制の構築。過去の失敗から学び続ける文化。</p> </div>
+        </div>
+      </div> <div class="w-full max-w-5xl mt-8 text-center bg-gray-800 text-white p-4 rounded-lg shadow-md"> <p class="text-lg font-semibold">知識は共有されてこそ価値が生まれる。個人の経験を組織の財産に変え、即時に全員へ届ける仕組みを作りましょう。</p> </div>
+
+    </div> </body>
+</html>
